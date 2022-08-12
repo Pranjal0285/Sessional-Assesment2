@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>IMAGE GALLARY</title>
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <label class="logo">MY  IMAGE  GALLARY</label>
+        
+        <ul>
+            <li>
+            </li>
+            <li><a id="homebtn" class="hoover" href="#">HOME</a></li>
+            <li><a id="blogbtn" href="#">BLOG SECTION</a></li>
+            <li><a id="forumbtn" href="#">FORM  SUBMISSION</a></li>
+        </ul>
+    </nav>
+    <section id="images">
+        <button type="submit" id="getPhot" class="fnt" onclick="getPhotos()">Fetch Images</button>
+    </section>
+    <section id="blog">
+        
+        <div id="blogbody">
+            <div id="blogtitle">
+                <p>My Blog</p>
+            </div>
+            <div id="blogcontent">
+                <p>
+                    "Anyone can hold the helm when the sea is calm." Hi, I am Pranjal Puri , alumni of Loreto Convent Tara Hall Shimla from 2004-2019, undergraduation from Chitkara University in Bachelor in Engineering (2020-2024),have chaired MUN for 2 years from 2016-2018. And now as a multi-disciplinary creative currently working on my skills to enhance my prowess on python,IWT,AWD,CPP,JAVA... I am passionate about helping my colleagues and can bring innovative ideas and a fresh perspective on the project. Some of my Proficient skills:Project management, Critical thinking, Public speaking,Taking initiative, Leadership, Teamwork and Writing. Communication is the heart of every organisation therefore Writing articles is one of the thing that soothes me. Reading prevents cognitive decline and reduces stress for me,but Listening to music lowers stress and elevates my mood.
+                </p>
+            </div>
+            <div id="blogfooter">
+                <p><i>Contributed by</i> - <b>Pranjal Puri</b></p>
+            </div>
+        </div>
+    </section>
+    <div id="empty"></div>
+    <section id="form">
+        <div id="blogform">
+        <div id="blog1">
+            <label style="color:azure;">Blog Title :</label> <input id="tiform" type="text" name="" id="#formtext">
+        </div>
+        <div id="blog2">
+            <label style="color:azure;">Blog Content :</label> <textarea id="conform" type="text" name="" id="#formtext" width="70%"
+                row="80%" placeholder="Write your blog content here"></textarea>
+        </div>
+    <div id="sbmtbtn">
+        <div >
+            <button id="blogsubmit">Create Blog</button>
+        </div>
+    </div>
+    </section>
+    <footer>
+        <p>Contact: Pranjal Puri<br>
+            <a href="mailto:puripranjal7@gmail.com">pranjal1415.be20@chitkara.edu.in</a><br>
+            <i class="fa-solid fa-copyright"></i><span>All Rights Reserved</span><br>  
+                      
+        </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
